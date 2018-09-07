@@ -1,0 +1,211 @@
+:root {
+	--pith: rgb(255, 243, 204);
+  --grapefruit: rgb(234, 114, 148);
+	--tangerine: rgb(249, 150, 70);
+	--lemon: rgb(255, 209, 78);
+}
+@font-face {
+  font-family: 'LearningCurve';
+  src: url('/fonts/LearningCurve.ttf');
+}
+@-webkit-keyframes Background {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+
+@-moz-keyframes Background {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+
+@keyframes Background {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+html, body, h1, h2, h3, h4, p, button, div {
+	padding: 0;
+	margin: 0;
+	font-family: "Cutive Mono", "Lucida Sans Typewriter", "Lucida Console", monaco, monospace;
+	color: white;
+}
+body {
+	background: linear-gradient(
+		75deg,
+		var(--grapefruit),
+		var(--lemon),
+		var(--grapefruit),
+		var(--tangerine)
+	);
+	background-size: 1000% 100%;
+
+	-webkit-animation: Background 120s ease infinite;
+	-moz-animation: Background 120s ease infinite;
+	animation: Background 120s ease infinite;
+}
+h1, h2 {
+	font-family: "Learning Curve", Helvetica, Arial, sans-serif;
+	font-size: 75px;
+	font-weight: 500;
+
+	text-align: left;
+}
+ul, li {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: white;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+p {
+	margin: 15px auto;
+	font-size: 24px;
+}
+hr {
+	height: 3px;
+
+	border-top: 1px solid white;
+	border-right: 0;
+	border-bottom: 1px solid white;
+	border-left: 0;
+}
+
+
+header {
+	margin: 15% 3% -5%;
+	width: 60%;
+}
+
+.first-quotation {
+	margin: 15% 3% 15% 15%;
+}
+.quote {
+	font-style: italic;
+	text-align: justify;
+}
+.attribution {
+	text-align: right;
+}
+
+footer {
+	margin: 5% auto 40%;
+}
+footer p {
+	text-align: center;
+}
+
+
+.newsletter-form form {
+	/* position: fixed;
+	bottom: 0; */
+
+	width: 100%;
+
+	margin: 0 auto;
+	padding: 15px 0 15px;
+	text-align: center;
+
+	background-color: var(--grapefruit);
+}
+.newsletter-form p {
+	display: inline;
+
+	font-size: 16px;
+	color: white;
+}
+@media only screen and (max-width: 920px) {
+	.newsletter-form p {
+		display: block;
+		margin: 0 5% 10px;
+	}
+}
+.newsletter-form input {
+	width: 175px;
+	padding: 6px;
+
+	border-style: none;
+	border-radius: 5px;
+}
+.newsletter-form button {
+	background-color: white;
+	border-color: white;
+	border-radius: 5px;
+
+	color: var(--grapefruit);
+	font-size: 14px;
+	padding: 3px 7px;
+}
+.newsletter-form button:hover {
+	background-color: var(--grapefruit);
+	border-color: var(--grapefruit);
+	color: white;
+}
+
+
+/* ul {
+	height: 50px;
+
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+
+	margin: 0 auto;
+}
+@media all and (max-width: 480px) {
+	ul {
+		width: 90%;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 768px) {
+	ul {
+		width: 75%;
+	}
+}
+@media all and (min-width: 769px) and (max-width: 1400px) {
+	ul {
+		width: 50%;
+	}
+}
+@media all and (min-width: 1400px) {
+	ul {
+		width: 35%;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.facebook i, .facebook i:hover {
+		color: var(--blue);
+	}
+	.instagram i, .instagram i:hover {
+		color: var(--yellow);
+	}
+	.twitter i, .twitter i:hover {
+		color: var(--red);
+	}
+}
+@media all and (min-width: 481px) {
+	.facebook i, .instagram i, .twitter i, .facebook i:visited, .instagram i:visited, .twitter i:visited {
+		color: #000000;
+	}
+	.facebook i:hover {
+		color: var(--blue);
+	}
+	.instagram i:hover {
+		color: var(--yellow);
+	}
+	.twitter i:hover {
+		color: var(--red);
+	}
+} */
