@@ -6,9 +6,10 @@
 }
 @font-face {
   font-family: 'LearningCurve';
-  src: url('/fonts/LearningCurve.ttf') format('truetype'),
+  src:
+	url('/fonts/learningcurve-webfont.woff2') format('woff2'),
 		url('/fonts/learningcurve-webfont.woff') format('woff'),
-		url('/fonts/learningcurve-webfont.woff2') format('woff2'),
+		url('/fonts/LearningCurve.ttf') format('truetype'),
 		url('/fonts/learningcurve-webfont.svg') format('svg');
 }
 @-webkit-keyframes Background {
