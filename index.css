@@ -5,12 +5,15 @@
 	--lemon: rgb(255, 209, 78);
 }
 @font-face {
-  font-family: 'LearningCurve';
-  src:
-	url('/fonts/learningcurve-webfont.woff2') format('woff2'),
-		url('/fonts/learningcurve-webfont.woff') format('woff'),
+	font-family: 'learning_curveregular';
+	src: url('learningcurve-webfont.eot');
+	src: url('learningcurve-webfont.eot?#iefix') format('embedded-opentype'),
+		url('learningcurve-webfont.woff2') format('woff2'),
+		url('learningcurve-webfont.woff') format('woff'),
 		url('/fonts/LearningCurve.ttf') format('truetype'),
-		url('/fonts/learningcurve-webfont.svg') format('svg');
+		url('learningcurve-webfont.svg#learning_curveregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 @-webkit-keyframes Background {
 	0% {background-position: 0% 50%}
@@ -50,7 +53,7 @@ body {
 	animation: Background 120s ease infinite;
 }
 h1, h2 {
-	font-family: 'Learning Curve', Garamond, serif;
+	font-family: 'Learning Curve', 'Lucida Sans Typewriter', 'Lucida Console', mono, monospace;
 	font-size: 70px;
 	font-weight: 500;
 
