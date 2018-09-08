@@ -32,7 +32,7 @@
 html, body, h1, h2, h3, h4, p, button, div {
 	padding: 0;
 	margin: 0;
-	font-family: "Cutive Mono", "Lucida Sans Typewriter", "Lucida Console", monaco, monospace;
+	font-family: 'Cutive Mono', 'Lucida Sans Typewriter', 'Lucida Console', monaco, monospace;
 	color: white;
 }
 body {
@@ -50,7 +50,7 @@ body {
 	animation: Background 120s ease infinite;
 }
 h1, h2 {
-	font-family: "Learning Curve", Helvetica, Arial, sans-serif;
+	font-family: 'Learning Curve', Garamond, serif;
 	font-size: 70px;
 	font-weight: 500;
 
