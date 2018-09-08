@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: 'LearningCurve';
-  src: url('/fonts/LearningCurve.ttf') format('ttf'),
+  src: url('/fonts/LearningCurve.ttf') format('truetype'),
 		url('/fonts/learningcurve-webfont.woff') format('woff'),
 		url('/fonts/learningcurve-webfont.woff2') format('woff2'),
 		url('/fonts/learningcurve-webfont.svg') format('svg');
@@ -86,7 +86,12 @@ hr {
 
 header {
 	margin: 50px 5% -25px;
-	width: 40%;
+	width: 75%;
+}
+@media all and (min-width: 481px) and (max-width: 768px) {
+	header {
+		width: 40%;
+	}
 }
 @media all and (min-width: 769px) {
 	header {
