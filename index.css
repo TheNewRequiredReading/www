@@ -94,6 +94,9 @@ hr {
 	border-bottom: 1px solid white;
 	border-left: 0;
 }
+.italic {
+	font-style: italic;
+}
 
 
 header {
@@ -129,7 +132,7 @@ header {
 .newsletter-form form {
 	width: 85%;
 	background-color: white;
-	margin: 5% auto;
+	margin: 15% auto 5%;
 	padding: 25px 0 25px;
 	border: 3px solid var(--pith);
 	box-shadow: 8px 12px var(--pith);
