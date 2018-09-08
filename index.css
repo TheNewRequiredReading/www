@@ -47,7 +47,7 @@ body {
 }
 h1, h2 {
 	font-family: "Learning Curve", Helvetica, Arial, sans-serif;
-	font-size: 75px;
+	font-size: 70px;
 	font-weight: 500;
 
 	text-align: left;
@@ -59,17 +59,17 @@ ul, li {
 	padding: 0;
 }
 a {
-	color: white;
+	color: var(--pith);
 }
 a:hover {
-	color: white;
+	color: var(--pith);
 }
 a:visited {
-	color: white;
+	color: var(--pith);
 }
 p {
-	margin: 15px auto;
-	font-size: 24px;
+	margin: 15px;
+	font-size: 20px;
 }
 hr {
 	height: 3px;
@@ -82,11 +82,16 @@ hr {
 
 
 header {
-	margin: 15% 3% -5%;
-	width: 60%;
+	margin: 50px 5% -25px;
+	width: 40%;
+}
+@media all and (min-width: 769px) {
+	header {
+		width: 75%;
+	}
 }
 
-.first-quotation {
+.quotation {
 	margin: 15% 3% 15% 15%;
 }
 .quote {
@@ -95,6 +100,10 @@ header {
 }
 .attribution {
 	text-align: right;
+}
+
+.introduction p {
+	text-align: justify;
 }
 
 footer {
