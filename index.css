@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: 'LearningCurve';
-  src: url('/fonts/LearningCurve.ttf');
+  src: url('/fonts/LearningCurve.woff');
 }
 @-webkit-keyframes Background {
 	0% {background-position: 0% 50%}
