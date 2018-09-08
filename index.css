@@ -35,8 +35,13 @@
 html, body, h1, h2, h3, h4, p, button, div {
 	padding: 0;
 	margin: 0;
-	font-family: 'Cutive Mono', 'Lucida Sans Typewriter', 'Lucida Console', monaco, monospace;
+	font-family: 'Cutive Mono',
+		'Lucida Sans Typewriter',
+		'Lucida Console',
+		monaco,
+		monospace;
 	color: white;
+	text-shadow: 1px 1px 1px var(--tangerine);
 }
 body {
 	background: linear-gradient(
@@ -48,12 +53,16 @@ body {
 	);
 	background-size: 1000% 100%;
 
-	-webkit-animation: Background 120s ease infinite;
-	-moz-animation: Background 120s ease infinite;
-	animation: Background 120s ease infinite;
+	-webkit-animation: Background 180s ease infinite;
+	-moz-animation: Background 180s ease infinite;
+	animation: Background 180s ease infinite;
 }
 h1, h2 {
-	font-family: 'Learning Curve', 'Lucida Sans Typewriter', 'Lucida Console', mono, monospace;
+	font-family: 'Learning Curve',
+		'Lucida Sans Typewriter',
+		'Lucida Console',
+		monaco,
+		monospace;
 	font-size: 70px;
 	font-weight: 500;
 
