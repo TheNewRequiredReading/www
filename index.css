@@ -132,7 +132,15 @@ header {
 }
 
 .text p {
+	width: 95%;
+	margin: 0 auto;
 	text-align: justify;
+}
+@media only screen and (min-width: 769px) {
+	.text p {
+		width: 85%;
+		margin: 0 auto;
+	}
 }
 
 .newsletter-form form {
